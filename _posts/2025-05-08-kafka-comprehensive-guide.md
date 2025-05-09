@@ -1,6 +1,6 @@
 ---
 title: "Kafka 공부 정리" # 또는 "Kafka 완벽 정복: 핵심 개념부터 실전 운영까지 (종합 가이드)"
-date: 2025-05-09 11:00:00 +0900
+date: 2025-05-08
 categories: [기술, Kafka, 데이터]
 tags: [kafka, msa, event-driven, data-pipeline, stream-processing, distributed-system]
 toc: true
