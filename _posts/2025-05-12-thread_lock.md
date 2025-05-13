@@ -1,5 +1,5 @@
 ---
-title: "시스템 동시성 제어 완벽 가이드: OS, CPU, 락부터 가상 스레드까지" # 또는 "CPU 코어 한계와 동시성: OS 원리부터 최신 기술까지 심층 분석"
+title: "시스템 동시성 제어" # 또는 "CPU 코어 한계와 동시성: OS 원리부터 최신 기술까지 심층 분석"
 date: 2025-05-12 # 실제 작성일 또는 발행일로 수정
 categories: [기술, 시스템, OS, 프로그래밍] # 또는 [CS, Backend, Concurrency]
 tags: [Concurrency, Parallelism, OS, CPU, Process, Thread, Scheduling, Lock, Mutex, Semaphore, Deadlock, PriorityInversion, VirtualThreads, Coroutines, Java, POSIX, MemoryManagement, CacheCoherency, AtomicOperations, LockFree] # 주요 키워드를 최대한 포함
