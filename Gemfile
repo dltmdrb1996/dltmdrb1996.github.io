@@ -1,14 +1,20 @@
-# frozen_string_literal: true
+# Gemfile
 
 source "https://rubygems.org"
 
-gemspec
+# Specify the Jekyll version
+gem "jekyll", "~> 4.3"
 
-gem "html-proofer", "~> 5.0", group: :test
+# The actual Chirpy theme
+gem "jekyll-theme-chirpy", "~> 6.7"  # 가장 중요한 부분!
 
-platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", ">= 1", "< 3"
-  gem "tzinfo-data"
+# A collection of useful Jekyll plugins.
+group :jekyll_plugins do
+  gem "jekyll-archives"
+  gem "jekyll-feed"
+  gem "jekyll-include-cache"
+  gem "jekyll-paginate"
+  gem "jekyll-redirect-from"
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
 end
-
-gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
